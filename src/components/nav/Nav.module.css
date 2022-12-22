@@ -1,0 +1,42 @@
+.nav {
+    margin: auto;
+    padding: 0 64px;
+    max-width: calc(1400px - 2 * 64px);
+}
+
+.logo {
+    display: block;
+}
+
+.link {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.outer {
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner {
+    display: flex;
+    column-gap: 97px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    column-gap: 48px;
+}
+
+.button {
+    height: 48px;
+    display: flex;
+    padding: 0 55px;
+    align-items: center;
+    background-color: var(--soap);
+    border-radius: var(--default-border-radius);
+}
